@@ -9,7 +9,7 @@ contract MyToken is ERC20{
         // Mining tokens 
         _mint(msg.sender, 999*(10**18));
     }
-    // Function to mine the tokens in future
+    // Function to mine the tokens in future (999 at a time)
      function mint() public {
         _mint(msg.sender, 999*(10**18));
     }
